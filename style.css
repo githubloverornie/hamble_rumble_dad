@@ -74,8 +74,26 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(236,132,11,1) 100%);
 }
 .imagegg{
   width: 200px;
+  height: 200px;
+  background-color: #000;
+  margin: 0 auto;
   margin-top: 15px;
   border-radius: 20px;
+  display: flex;
+  animation: myAnim 2s ease-in-out 0s 1 normal forwards;
+
+}
+.text_imagegg{
+  color:yellow;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  animation: myAnim 2s ease-in-out 0s 1 normal forwards;
+  margin: 0 auto;
+  font-family: 'Pacifico', cursive;
+
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
   background: wheat;
